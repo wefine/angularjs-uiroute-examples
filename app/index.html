@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="uiApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular with Webpack</title>
+    <style>
+        .active {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<a ui-sref="hello" ui-sref-active="active">Hello</a>
+<a ui-sref="about" ui-sref-active="active">About</a>
+
+<ui-view></ui-view>
+
+</body>
+</html>
